@@ -1,0 +1,48 @@
+{
+  "name":"HELD: Helmholtz Detectors",
+  "description":"A wordpress app for the MTDTS website",
+  "homepage":"http://www.helmholtz-detectors.de/",
+  "type":"project",
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-pi-logging.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-scopus-collaboration-checker.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/kitopen-api.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/indico-api.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp_commands.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-data-safe.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-scopus.git"
+    }
+  ],
+  "require":
+  {
+    "the16thpythonist/wp-pi-logging": "@dev",
+    "the16thpythonist/wp-commands": "@dev",
+
+    "phpunit/phpunit":"^6"
+  },
+  "config": {
+    "github-oauth": {
+      "github.com": "10f1d27952e6de2ce7ebf36e0ca6421e7c85925b"
+    }
+  }
+}
